@@ -3,7 +3,6 @@ import { grey } from "@material-ui/core/colors";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import Definitions from "./components/Definitions/Definitions";
-import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 
 function App() {
@@ -89,7 +88,7 @@ function App() {
           />
         )}
       </Container>
-      <Footer />
+      
     </div>
   );
 }
